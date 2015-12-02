@@ -1,0 +1,244 @@
+﻿{
+  "League": {
+    "Region": {
+      "NorthAmerica": {
+        "Teams": {
+          "team": [
+            {
+              "-name": "TSM",
+              "-id": "a1",
+              "info": {
+                "standingsBeforePlayoffs": "5",
+                "standingsAfterPlayoffs": "2",
+                "wins": "11",
+                "loses": "7",
+                "group": "d",
+                "standingInGroups": "4"
+              }
+            },
+            {
+              "-name": "CLG",
+              "-id": "a2",
+              "info": {
+                "standingsBeforePlayoffs": "2",
+                "standingsAfterPlayoffs": "1",
+                "wins": "13",
+                "loses": "6",
+                "group": "a",
+                "standingInGroups": "3"
+              }
+            },
+            {
+              "-name": "C9",
+              "-id": "a3",
+              "info": {
+                "standingsBeforePlayoffs": "7",
+                "standingsAfterPlayoffs": "6",
+                "regionalQualifier": "1",
+                "wins": "7",
+                "loses": "12",
+                "group": "b",
+                "standingInGroups": "3"
+              }
+            }
+          ]
+        }
+      },
+      "Europe": {
+        "Teams": {
+          "team": [
+            {
+              "-name": "Fnatic",
+              "-id": "b1",
+              "info": {
+                "standingsBeforePlayoffs": "1",
+                "standingsAfterPlayoffs": "1",
+                "wins": "18",
+                "loses": "0",
+                "group": "b",
+                "standingInGroups": "1"
+              }
+            },
+            {
+              "-name": "Origin",
+              "-id": "b2",
+              "info": {
+                "standingsBeforePlayoffs": "2",
+                "standingsAfterPlayoffs": "2",
+                "wins": "12",
+                "loses": "6",
+                "group": "d",
+                "standingInGroups": "2"
+              }
+            },
+            {
+              "-name": "H2K",
+              "-id": "b3",
+              "info": {
+                "standingsBeforePlayoffs": "3",
+                "standingsAfterPlayoffs": "3",
+                "regionalQualifier": "1",
+                "wins": "11",
+                "loses": "10",
+                "group": "c",
+                "standingInGroups": "3"
+              }
+            }
+          ]
+        }
+      },
+      "China": {
+        "Teams": {
+          "team": [
+            {
+              "-name": "EDG",
+              "-id": "c1",
+              "info": {
+                "standingsBeforePlayoffs": "1",
+                "standingsAfterPlayoffs": "5",
+                "regionalQualifier": "1",
+                "wins": "14",
+                "loses": "2",
+                "ties": "6",
+                "group": "c",
+                "standingInGroups": "2"
+              }
+            },
+            {
+              "-name": "LGD",
+              "-id": "c2",
+              "info": {
+                "standingsBeforePlayoffs": "5",
+                "standingsAfterPlayoffs": "1",
+                "wins": "6",
+                "loses": "4",
+                "ties": "12",
+                "group": "d",
+                "standingInGroups": "3"
+              }
+            },
+            {
+              "-name": "IG",
+              "-id": "c3",
+              "info": {
+                "standingsBeforePlayoffs": "3",
+                "standingsAfterPlayoffs": "3",
+                "wins": "8",
+                "loses": "6",
+                "ties": "8",
+                "group": "b",
+                "standingInGroups": "4"
+              }
+            }
+          ]
+        }
+      },
+      "SouthKorea": {
+        "Teams": {
+          "team": [
+            {
+              "-name": "SKT",
+              "-id": "d1",
+              "info": {
+                "standingsBeforePlayoffs": "1",
+                "standingsAfterPlayoffs": "1",
+                "wins": "17",
+                "loses": "1",
+                "group": "c",
+                "standingInGroups": "1"
+              }
+            },
+            {
+              "-name": "KOO",
+              "-id": "d2",
+              "info": {
+                "standingsBeforePlayoffs": "4",
+                "standingsAfterPlayoffs": "3",
+                "wins": "11",
+                "loses": "7",
+                "group": "a",
+                "standingInGroups": "2"
+              }
+            },
+            {
+              "-name": "KT Rolster",
+              "-id": "d3",
+              "info": {
+                "standingsBeforePlayoffs": "2",
+                "standingsAfterPlayoffs": "2",
+                "regionalQualifier": "1",
+                "wins": "13",
+                "loses": "5",
+                "group": "d",
+                "standingInGroups": "1"
+              }
+            }
+          ]
+        }
+      },
+      "Taiwan": {
+        "Teams": {
+          "team": [
+            {
+              "-name": "AHQ",
+              "-id": "e1",
+              "info": {
+                "standingsBeforePlayoffs": "1",
+                "standingsAfterPlayoffs": "1",
+                "wins": "11",
+                "loses": "0",
+                "ties": "3",
+                "group": "b",
+                "standingInGroups": "2"
+              }
+            },
+            {
+              "-name": "Flash Wolves",
+              "-id": "e2",
+              "info": {
+                "standingsBeforePlayoffs": "2",
+                "standingsAfterPlayoffs": "3",
+                "regionalQualifier": "1",
+                "wins": "9",
+                "loses": "2",
+                "ties": "3",
+                "group": "a",
+                "standingInGroups": "1"
+              }
+            }
+          ]
+        }
+      },
+      "WildCard": {
+        "Teams": {
+          "team": [
+            {
+              "-name": "Bangkok Tigers",
+              "-id": "f1",
+              "info": {
+                "standingsBeforePlayoffs": "2",
+                "standingsAfterPlayoffs": "2",
+                "wins": "3",
+                "loses": "3",
+                "group": "c",
+                "standingInGroups": "4"
+              }
+            },
+            {
+              "-name": "Pain",
+              "-id": "f2",
+              "info": {
+                "standingsBeforePlayoffs": "1",
+                "standingsAfterPlayoffs": "1",
+                "wins": "4",
+                "loses": "0",
+                "group": "a",
+                "standingInGroups": "4"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
