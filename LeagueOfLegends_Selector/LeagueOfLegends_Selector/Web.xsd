@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="League">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Region">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NorthAmerica">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Teams">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="team">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="info">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="standingsBeforePlayoffs" type="xs:unsignedByte" />
+                                      <xs:element name="standingsAfterPlayoffs" type="xs:unsignedByte" />
+                                      <xs:element minOccurs="0" name="regionalQualifier" type="xs:unsignedByte" />
+                                      <xs:element name="wins" type="xs:unsignedByte" />
+                                      <xs:element name="loses" type="xs:unsignedByte" />
+                                      <xs:element name="group" type="xs:string" />
+                                      <xs:element name="standingInGroups" type="xs:unsignedByte" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="name" type="xs:string" use="required" />
+                              <xs:attribute name="id" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Europe">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Teams">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="team">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="info">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="standingsBeforePlayoffs" type="xs:unsignedByte" />
+                                      <xs:element name="standingsAfterPlayoffs" type="xs:unsignedByte" />
+                                      <xs:element minOccurs="0" name="regionalQualifier" type="xs:unsignedByte" />
+                                      <xs:element name="wins" type="xs:unsignedByte" />
+                                      <xs:element name="loses" type="xs:unsignedByte" />
+                                      <xs:element name="group" type="xs:string" />
+                                      <xs:element name="standingInGroups" type="xs:unsignedByte" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="name" type="xs:string" use="required" />
+                              <xs:attribute name="id" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="China">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Teams">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="team">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="info">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="standingsBeforePlayoffs" type="xs:unsignedByte" />
+                                      <xs:element name="standingsAfterPlayoffs" type="xs:unsignedByte" />
+                                      <xs:element minOccurs="0" name="regionalQualifier" type="xs:unsignedByte" />
+                                      <xs:element name="wins" type="xs:unsignedByte" />
+                                      <xs:element name="loses" type="xs:unsignedByte" />
+                                      <xs:element name="ties" type="xs:unsignedByte" />
+                                      <xs:element name="group" type="xs:string" />
+                                      <xs:element name="standingInGroups" type="xs:unsignedByte" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="name" type="xs:string" use="required" />
+                              <xs:attribute name="id" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SouthKorea">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Teams">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="team">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="info">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="standingsBeforePlayoffs" type="xs:unsignedByte" />
+                                      <xs:element name="standingsAfterPlayoffs" type="xs:unsignedByte" />
+                                      <xs:element minOccurs="0" name="regionalQualifier" type="xs:unsignedByte" />
+                                      <xs:element name="wins" type="xs:unsignedByte" />
+                                      <xs:element name="loses" type="xs:unsignedByte" />
+                                      <xs:element name="group" type="xs:string" />
+                                      <xs:element name="standingInGroups" type="xs:unsignedByte" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="name" type="xs:string" use="required" />
+                              <xs:attribute name="id" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Taiwan">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Teams">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="team">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="info">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="standingsBeforePlayoffs" type="xs:unsignedByte" />
+                                      <xs:element name="standingsAfterPlayoffs" type="xs:unsignedByte" />
+                                      <xs:element minOccurs="0" name="regionalQualifier" type="xs:unsignedByte" />
+                                      <xs:element name="wins" type="xs:unsignedByte" />
+                                      <xs:element name="loses" type="xs:unsignedByte" />
+                                      <xs:element name="ties" type="xs:unsignedByte" />
+                                      <xs:element name="group" type="xs:string" />
+                                      <xs:element name="standingInGroups" type="xs:unsignedByte" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="name" type="xs:string" use="required" />
+                              <xs:attribute name="id" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="WildCard">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Teams">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="team">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="info">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="standingsBeforePlayoffs" type="xs:unsignedByte" />
+                                      <xs:element name="standingsAfterPlayoffs" type="xs:unsignedByte" />
+                                      <xs:element name="wins" type="xs:unsignedByte" />
+                                      <xs:element name="loses" type="xs:unsignedByte" />
+                                      <xs:element name="group" type="xs:string" />
+                                      <xs:element name="standingInGroups" type="xs:unsignedByte" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="name" type="xs:string" use="required" />
+                              <xs:attribute name="id" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

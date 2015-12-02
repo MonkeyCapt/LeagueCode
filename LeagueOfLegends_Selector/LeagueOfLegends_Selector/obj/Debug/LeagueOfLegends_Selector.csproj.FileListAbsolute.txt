@@ -1,0 +1,6 @@
+c:\users\eric\documents\visual studio 2015\Projects\LeagueOfLegends_Selector\LeagueOfLegends_Selector\bin\Debug\LeagueOfLegends_Selector.exe.config
+c:\users\eric\documents\visual studio 2015\Projects\LeagueOfLegends_Selector\LeagueOfLegends_Selector\obj\Debug\LeagueOfLegends_Selector.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\LeagueOfLegends_Selector\LeagueOfLegends_Selector\bin\Debug\LeagueOfLegends_Selector.exe
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\LeagueOfLegends_Selector\LeagueOfLegends_Selector\bin\Debug\LeagueOfLegends_Selector.pdb
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\LeagueOfLegends_Selector\LeagueOfLegends_Selector\obj\Debug\LeagueOfLegends_Selector.exe
+C:\Users\Eric\Documents\Visual Studio 2015\Projects\LeagueOfLegends_Selector\LeagueOfLegends_Selector\obj\Debug\LeagueOfLegends_Selector.pdb

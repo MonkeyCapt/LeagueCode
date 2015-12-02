@@ -1,0 +1,199 @@
+	<League>
+		<Region>
+			<NorthAmerica> 
+				<Teams>
+					<team name = "TSM" id = "a1">
+						<info>
+							<standingsBeforePlayoffs>5</standingsBeforePlayoffs>  <!-->standings in the fall split in the team's current region </!-->
+							<standingsAfterPlayoffs>2</standingsAfterPlayoffs>  <!-->standings after playoofs </!-->
+							<wins>11</wins>
+							<loses>7</loses>
+							<group>d</group>
+							<standingInGroups>4</standingInGroups>
+						</info>
+					</team>
+					<team name = "CLG" id = "a2">
+						<info>
+							<standingsBeforePlayoffs>2</standingsBeforePlayoffs>
+							<standingsAfterPlayoffs>1</standingsAfterPlayoffs> 
+							<wins>13</wins>
+							<loses>6</loses>
+							<group>a</group>
+							<standingInGroups>3</standingInGroups>
+						</info>
+					</team>
+					<team name = "C9" id = "a3">
+						<info>
+							<standingsBeforePlayoffs>7</standingsBeforePlayoffs>
+							<standingsAfterPlayoffs>6</standingsAfterPlayoffs> 
+							<regionalQualifier>1</regionalQualifier>
+							<wins>7</wins>
+							<loses>12</loses>
+							<group>b</group>
+							<standingInGroups>3</standingInGroups>
+						</info>
+					</team>
+				
+				</Teams>
+			</NorthAmerica>
+			<Europe>
+				<Teams>
+					<team name = "Fnatic" id = "b1">
+						<info>
+							<standingsBeforePlayoffs>1</standingsBeforePlayoffs>
+							<standingsAfterPlayoffs>1</standingsAfterPlayoffs> 
+							<wins>18</wins>
+							<loses>0</loses>
+							<group>b</group>
+							<standingInGroups>1</standingInGroups>
+						</info>
+					</team>
+					<team name = "Origin" id = "b2">
+						<info>
+							<standingsBeforePlayoffs>2</standingsBeforePlayoffs>
+							<standingsAfterPlayoffs>2</standingsAfterPlayoffs> 
+							<wins>12</wins>
+							<loses>6</loses>
+							<group>d</group>
+							<standingInGroups>2</standingInGroups>
+						</info>
+					</team>
+					<team name = "H2K" id = "b3">
+						<info>
+							<standingsBeforePlayoffs>3</standingsBeforePlayoffs>
+							<standingsAfterPlayoffs>3</standingsAfterPlayoffs> 
+							<regionalQualifier>1</regionalQualifier>
+							<wins>11</wins>
+							<loses>10</loses>
+							<group>c</group>
+							<standingInGroups>3</standingInGroups>
+						</info>
+					</team>
+				</Teams>
+			</Europe>
+			<China>
+				<Teams>
+					<team name = "EDG" id = "c1">
+						<info>
+							<standingsBeforePlayoffs>1</standingsBeforePlayoffs>
+							<standingsAfterPlayoffs>5</standingsAfterPlayoffs>
+							<regionalQualifier>1</regionalQualifier><!-->teams that where 1st in playoffs will not have a regional qualifier, not mandatory </!-->
+							<wins>14</wins>
+							<loses>2</loses>
+							<ties>6</ties> <!-->china, korea have bo2 games resulting to ties matches not required info </!-->
+							<group>c</group>
+							<standingInGroups>2</standingInGroups>
+						</info>
+					</team>
+					<team name = "LGD" id = "c2">
+						<info>
+							<standingsBeforePlayoffs>5</standingsBeforePlayoffs>
+							<standingsAfterPlayoffs>1</standingsAfterPlayoffs>
+							<wins>6</wins>
+							<loses>4</loses>
+							<ties>12</ties>
+							<group>d</group>
+							<standingInGroups>3</standingInGroups>
+						</info>
+					</team>
+					<team name = "IG" id = "c3">
+						<info>
+							<standingsBeforePlayoffs>3</standingsBeforePlayoffs> 
+							<standingsAfterPlayoffs>3</standingsAfterPlayoffs>
+							<wins>8</wins>
+							<loses>6</loses>
+							<ties>8</ties>
+							<group>b</group>
+							<standingInGroups>4</standingInGroups>
+						</info>
+					</team>
+				</Teams>
+			</China>
+			<SouthKorea>
+				<Teams>
+					<team name = "SKT" id = "d1">
+						<info>
+							<standingsBeforePlayoffs>1</standingsBeforePlayoffs> 
+							<standingsAfterPlayoffs>1</standingsAfterPlayoffs>
+							<wins>17</wins>
+							<loses>1</loses>
+							<group>c</group>
+							<standingInGroups>1</standingInGroups>
+						</info>
+					</team>
+					<team name = "KOO" id = "d2">
+						<info>
+							<standingsBeforePlayoffs>4</standingsBeforePlayoffs> 
+							<standingsAfterPlayoffs>3</standingsAfterPlayoffs>
+							<wins>11</wins>
+							<loses>7</loses>
+							<group>a</group>
+							<standingInGroups>2</standingInGroups>
+						</info>
+					</team>
+					<team name = "KT Rolster" id = "d3">
+						<info>
+							<standingsBeforePlayoffs>2</standingsBeforePlayoffs> 
+							<standingsAfterPlayoffs>2</standingsAfterPlayoffs>
+							<regionalQualifier>1</regionalQualifier>
+							<wins>13</wins>
+							<loses>5</loses>
+							<group>d</group>
+							<standingInGroups>1</standingInGroups>
+						</info>
+					</team>
+				</Teams>
+			</SouthKorea>
+			<Taiwan>
+				<Teams>
+					<team name = "AHQ" id = "e1">
+						<info>
+							<standingsBeforePlayoffs>1</standingsBeforePlayoffs> 
+							<standingsAfterPlayoffs>1</standingsAfterPlayoffs>
+							<wins>11</wins>
+							<loses>0</loses>
+							<ties>3</ties>
+							<group>b</group>
+							<standingInGroups>2</standingInGroups>
+						</info>
+					</team>
+					<team name = "Flash Wolves" id = "e2">
+						<info>
+							<standingsBeforePlayoffs>2</standingsBeforePlayoffs> 
+							<standingsAfterPlayoffs>3</standingsAfterPlayoffs>
+							<regionalQualifier>1</regionalQualifier>
+							<wins>9</wins>
+							<loses>2</loses>
+							<ties>3</ties>
+							<group>a</group>
+							<standingInGroups>1</standingInGroups>
+						</info>
+					</team>
+				</Teams>
+			</Taiwan>
+			<WildCard>
+				<Teams>
+					<team name = "Bangkok Tigers" id = "f1">
+						<info>
+							<standingsBeforePlayoffs>2</standingsBeforePlayoffs> <!-->skewd stats for wildcard region since there is a tournament for wildcards to get into worlds finals</!-->
+							<standingsAfterPlayoffs>2</standingsAfterPlayoffs>
+							<wins>3</wins> <!-->w/l for wildcard tournament </!-->
+							<loses>3</loses>
+							<group>c</group>
+							<standingInGroups>4</standingInGroups>
+						</info>
+					</team>
+					<team name = "Pain" id = "f2">
+						<info>
+							<standingsBeforePlayoffs>1</standingsBeforePlayoffs> 
+							<standingsAfterPlayoffs>1</standingsAfterPlayoffs>
+							<wins>4</wins>
+							<loses>0</loses>
+							<group>a</group>
+							<standingInGroups>4</standingInGroups>
+						</info>
+					</team>
+				</Teams>
+			</WildCard>
+		</Region>
+	</League>
